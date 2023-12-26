@@ -96,7 +96,7 @@ var indexOf = function(item, source){
  * 
  * @typedef {object} MarkerClustererOptions
  * @property {Marker[]=} markers 要聚合的标记数组
- * @property {number=} [girdSize=60] 聚合计算时网格的像素大小，默认60
+ * @property {number=} [gridSize=60] 聚合计算时网格的像素大小，默认60
  * @property {number=} maxZoom 最大的聚合级别，大于该级别就不进行相应的聚合
  * @property {number=} [minClusterSize=2] 最小的聚合数量，小于该数量的不能成为一个聚合，默认为2
  * @property {boolean=} [isAverageCenter=false] 聚合点的落脚位置是否是所有聚合在内点的平均值，默认为否，落脚在聚合内的第一个点
