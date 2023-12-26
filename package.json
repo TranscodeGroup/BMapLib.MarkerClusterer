@@ -4,6 +4,12 @@
   "description": "A library of Baidu Map JS API",
   "main": "index.common.js",
   "module": "index.esm.js",
+  "exports": {
+    ".": {
+      "require": "./index.common.js",
+      "import": "./index.esm.js"
+    }
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
