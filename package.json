@@ -10,6 +10,10 @@
       "import": "./index.esm.js"
     }
   },
+  "files": [
+    "index.common.js",
+    "index.esm.js"
+  ],
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
